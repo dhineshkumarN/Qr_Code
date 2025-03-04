@@ -1,0 +1,50 @@
+.app-container{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Qrcode-image{
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.input-label{
+    display: block;
+    margin: 5px;
+    color: rgb(35, 108, 236);
+    font-size: 15px;
+    font-family: 500;
+}
+input[type="text"]{
+    margin-bottom: 20px;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid rgb(35, 108, 236);
+    border-radius: 5px;
+}
+button{
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.generate-button{
+    background-color: rgb(35, 108, 236);
+}
+.generate-button:disabled{
+    color:#d7d7d7;
+    cursor: not-allowed;
+}
+.download-button{
+    background-color: rgb(33, 152, 100);
+    margin-left: 10px;
+}
+.download-button:hover{
+    background-color:rgb(23, 121, 79) ;
+}
